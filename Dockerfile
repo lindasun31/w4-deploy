@@ -9,7 +9,7 @@ ENV NUXT_STUDENT_NIM ${STUDENT_NIM}
 ### </JANGAN DIGANTI>
 
 # Stage 1: Build the app using Node.js and Vite
-FROM node:16 as build-stage
+FROM node:18 as build-stage
 
 # Set the working directory inside the container
 WORKDIR /app
