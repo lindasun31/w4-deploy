@@ -27,7 +27,3 @@ RUN npm run build
 
 CMD ["npm", "run", "start"]
 
-
-
-
-# TODO: code disini
