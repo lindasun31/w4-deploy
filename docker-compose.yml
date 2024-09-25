@@ -6,4 +6,5 @@ services:
         STUDENT_NAME: "Linda Sundoko"
         STUDENT_NIM: "00000068320"
     ports:
+      - "80:3000"
       # TODO
